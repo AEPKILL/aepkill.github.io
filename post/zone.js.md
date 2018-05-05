@@ -1,11 +1,11 @@
-----
+---
 title: zone.js
 date: 2016-10-07 13:47:50
 categories: 前端技术
 tags: [Javascript , TypeScript , 笔记 , 调试]
 description: 来自 Angular2 团队的zone.js实现了对异步任务进行了封装，并且提供了异步执行时的 Hook 接口，方便开发者在异步任务执行前后做一些额外的事情，比如：记录日志，监控性能，附加数据到异步上下文中等。
 
-----
+---
 
 用官方的描述来说，zone.js是描述JavaScript执行过程的上下文，它是一个跨异步任务依然存在的上下文，有点类似于TLS（[thread-local storage: 线程本地存储](https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Thread-local_storage)）技术，zone.js则是将TLS引入到JavaScript语言中的实现框架。
 
