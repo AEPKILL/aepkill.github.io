@@ -1,3 +1,11 @@
+---	
+title: TypeScript装饰器	
+categories: 笔记	
+tags: [typescript , 笔记]	
+description: 随着TypeScript和ES6里引入了类，在一些场景下我们需要额外的特性来支持标注或修改类及其成员。 装饰器（Decorators）为我们在类的声明及成员上通过元编程语法添加标注提供了一种方式。	
+date: 2016-9-27 22:09:02	
+---
+
 装饰器是ES7将会提供的功能，目前TypeScript已提供支持，为了避免编译警告，需要在`tsconfig.json`中设置 `compilerOptions`字段中的 `experimentalDecorators` 为 `true`。
 ## Decorator  模式
 
