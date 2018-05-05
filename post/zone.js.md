@@ -53,7 +53,7 @@ Zone 是一个类，current 是Zone类的一个静态 Getter，他会返回当�
 
 fork 是 Zone 对象的一个方法，它返回一个继承自调用方的全新Zone对象：
 
-![img](https://aepkill.github.io/img/zone.js/1.png)
+![img](../img/zone.js/1.png)
 
 
 
@@ -88,7 +88,7 @@ parentZoneDelegate 是 ZoneDelegate 类的实例，ZoneDelegate 类是 Zone 类�
 
 currentZone 是当前 Hook 函数所在的 Zone 对象，targetZone 是触发异步时的Zone对象，因为zone.js 会沿着整个 fork 链查询 Hook 函数 ，所以触发异步时Zone对象有可能不是当前Hook 函数所在的Zone对象，这里需要区分一下。
 
-![img](https://aepkill.github.io/img/zone.js/2.png)
+![img](../img/zone.js/2.png)
 
 task 异步任务对象，对于开发者而言仅需要关注它的四个属性：
 
@@ -131,11 +131,11 @@ main();
 
 当点击网页的时候，我们发现控制台的报错如下：
 
-![img](https://aepkill.github.io/img/zone.js/3.png)
+![img](../img/zone.js/3.png)
 
 在报错信息中，并不能发现 main 函数中的事件绑定才是整个异常的源头，如果引入了long-stack-trace，那么整个异常链将变得可追溯 ：
 
-![img](https://aepkill.github.io/img/zone.js/4.png)
+![img](../img/zone.js/4.png)
 
 在实现 long-stace-trace 中，将用到另外两个 Hook 功能：
 
