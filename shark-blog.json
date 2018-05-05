@@ -1,0 +1,18 @@
+{
+  "title": "AEPKILL",
+  "description": "看不见不代表没有，看表面难断美丑",
+  "site": "http://blog.aepkill.com",
+  "pageSize": 10,
+  "author": "AEPKILL",
+  "concat": "mailto:a@aepkill.com",
+  "language": "zh-cn",
+  "rootDir": ".",
+  "postDir": "post",
+  "metaDir": "meta",
+  "theme": "shark-blog",
+  "publicPath": "/",
+  "htmlInject": [
+    "404.html",
+    "index.html"
+  ]
+}
