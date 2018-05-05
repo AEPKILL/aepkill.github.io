@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strictFunctionTypes": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "./src/*.ts"
+  ]
+}

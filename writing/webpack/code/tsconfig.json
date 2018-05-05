@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "strict": true,
+    "moduleResolution": "node",
+    "outDir": "out"
+  },
+  "files": [
+    "./src/main.ts"
+  ]
+}

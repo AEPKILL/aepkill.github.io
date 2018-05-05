@@ -14,5 +14,8 @@
   "htmlInject": [
     "404.html",
     "index.html"
-  ]
+  ],
+  "extra": {
+    "whoiam": "Hello , 我是 AEPKILL , 目前主要从事 WEB 前端方面的工作\n技术栈主要以 React 和 Angular 为主 , 对原生 Javascript 开发也比较熟悉"
+  }
 }
