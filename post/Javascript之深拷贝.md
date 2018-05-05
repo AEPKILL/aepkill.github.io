@@ -21,11 +21,11 @@ var man = {
 
 那么JS引擎在执行这段代码的时候就创建了一个包含name与sex这两个字段的对象实体，然后将这个对象的引用赋值给了变量man。
 
-![img](https://aepkill.github.io/img/javascript-deep-copy/1.png)
+![img](../img/javascript-deep-copy/1.png)
 
 此时如果再将变量man赋值给另外一个变量，那么并没有创建一个新的对象实体，而是仅仅拷贝了这种引用关系。
 
-![img](https://aepkill.github.io/img/javascript-deep-copy/2.png)
+![img](../img/javascript-deep-copy/2.png)
 
 ```javascript
 var superMan = man;
@@ -166,7 +166,7 @@ man['deefRef'] = man;
 
 此时如果调用刚才的DeepCopy函数的话，会陷入一个循环的递归过程，从而导致爆栈：
 
-![img](https://aepkill.github.io/img/javascript-deep-copy/3.png)
+![img](../img/javascript-deep-copy/3.png)
 
 解决这个问题也非常简单，只需要判断一个对象的字段是否引用了这个对象或这个对象的任意父级即可，修改一下代码：
 
@@ -226,7 +226,7 @@ console.log(DeepCopy(man));
 
 输出：
 
-![img](https://aepkill.github.io/img/javascript-deep-copy/4.png)
+![img](../img/javascript-deep-copy/4.png)
 
 至此，已完成一个支持循环引用的深拷贝函数。
 
@@ -236,7 +236,7 @@ console.log(DeepCopy(man));
 
 现在我们把一个对象想像成一棵树：
 
-![img](https://aepkill.github.io/img/javascript-deep-copy/5.png)
+![img](../img/javascript-deep-copy/5.png)
 
 用代码来表示就是这样：
 

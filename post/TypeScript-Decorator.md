@@ -1,8 +1,8 @@
----	
+---
 title: TypeScript装饰器	
 categories: 笔记	
 tags: [typescript , 笔记]	
-description: 随着TypeScript和ES6里引入了类，在一些场景下我们需要额外的特性来支持标注或修改类及其成员。 装饰器（Decorators）为我们在类的声明及成员上通过元编程语法添加标注提供了一种方式。	
+description:随着TypeScript和ES6里引入了类，在一些场景下我们需要额外的特性来支持标注或修改类及其成员。 装饰器（Decorators）为我们在类的声明及成员上通过元编程语法添加标注提供了一种方式。	
 date: 2016-9-27 22:09:02	
 ---
 
