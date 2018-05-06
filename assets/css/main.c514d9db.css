@@ -301,9 +301,10 @@ body {
 
 .blog {
   width: 100%; }
-  .blog-view,
-  .blog img {
+  .blog-view {
     max-width: 960px; }
+  .blog img {
+    max-width: 100%; }
   .blog img {
     cursor: -webkit-zoom-in;
     cursor: zoom-in; }
