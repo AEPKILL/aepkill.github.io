@@ -1,10 +1,10 @@
 ---
-title: 在 vscode 中编译调试 c++ 代码
+title: 在 vscode 中编译调试 c++
 date: 2017-12-14
 categories: 编程工具
 tags: [C++ , VSCode]
 description: 一个关于在 windows 上使用 vscode 做 c++ 开发的笔记
-
+typora-root-url: ..\img
 ---
 
 长期以来我一直是在 Visual Studio 上写 C++ 和 C# 代码，VSCode 我一般用来写一下前端相关的代码。
