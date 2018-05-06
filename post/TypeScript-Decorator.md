@@ -456,12 +456,11 @@ AEPKILL = __decorate([
 
 
 
-> 本文作者水平有限，若有理解欠缺或偏差之处，请不吝赐教。
->
-> 您可以通过邮箱联系到我：a@aepkill.com。
+> 本文作者水平有限，若有理解欠缺或偏差之处，望不吝赐教。
 >
 > 参考：
-> 1. 《设计模式：可复用面向对象软件技术的基础》
-> 2. 《Javascript设计模式与开发实践》
-> 3. [AOP技术基础](http://wayfarer.cnblogs.com/articles/241024.html)
-> 4. [Python装饰器的高级用法](http://www.jianshu.com/p/17cf262fc693?utm_source=tuicool&utm_medium=referrl)
+> * 《设计模式：可复用面向对象软件技术的基础》
+> * 《Javascript设计模式与开发实践》
+> * [AOP技术基础](http://wayfarer.cnblogs.com/articles/241024.html)
+> * [Python装饰器的高级用法](http://www.jianshu.com/p/17cf262fc693?utm_source=tuicool&utm_medium=referrl)
+

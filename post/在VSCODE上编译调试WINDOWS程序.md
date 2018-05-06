@@ -74,22 +74,21 @@ cl main.cpp  /Zi /Fe:debug/main /Fd:debug/main /Fo:debug/main
 
 进行完配置就基本和 `Visual Studio` 中写 C++ 差不多了。
 
-![预览](https://raw.githubusercontent.com/AepKill/aepkill.github.io/master/img/c%2B%2B-with-vscode/preview.png)
+![预览](../img/c%2B%2B-with-vscode/preview.png)
 
 调试:
 
-![调试](https://raw.githubusercontent.com/AepKill/aepkill.github.io/master/img/c%2B%2B-with-vscode/debug.png)
+![调试](../img/c%2B%2B-with-vscode/debug.png)
 
 运行结果:
 
-![运行结果](https://raw.githubusercontent.com/AepKill/aepkill.github.io/master/img/c%2B%2B-with-vscode/result.png)
+![运行结果](../img/c%2B%2B-with-vscode/result.png)
 
 
 
-> 本文作者水平有限，可能有理解欠缺或偏差之处，若有不当之处，望不吝赐教。
+> 本文作者水平有限，若有理解欠缺或偏差之处，望不吝赐教。
 >
 > 参考资料:
 >
-> [vscode in cpp](https://www.youtube.com/watch?v=Ok4p1XgZGEY)
->
-> [Compiler Command-Line Syntax](https://msdn.microsoft.com/zh-cn/library/610ecb4h.aspx)
+> * [vscode in cpp](https://www.youtube.com/watch?v=Ok4p1XgZGEY)
+> * [Compiler Command-Line Syntax](https://msdn.microsoft.com/zh-cn/library/610ecb4h.aspx)

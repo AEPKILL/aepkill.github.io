@@ -1,5 +1,5 @@
 ---
-title: Javascript异步进化史
+title: Javascript 异步进化史
 categories: TypeScript
 date: 2016-10-04 23:20:19
 tags: [Javascript , TypeScript , 笔记]
@@ -273,16 +273,10 @@ G();
 
 简述了异步的发展历史，关于异步时异常这一块没有提到，有时间补上。
 
-> 本文作者水平有限，若有理解欠缺或偏差之处，请不吝赐教。
+> 本文作者水平有限，若有理解欠缺或偏差之处，望不吝赐教。
 >
-> 您可以通过邮箱联系到我：a@aepkill.com。
+> 参考资料：
 >
-> 参考：
->
-> Promise A+规范 [英文版](https://promisesaplus.com/) [第三方中文翻译版](http://www.ituring.com.cn/article/66566)
->
-> [ECMAScript6入门手册：Generator函数](http://es6.ruanyifeng.com/#docs/generator)
->
-> [Promise的队列与setTimeout的队列有何关联](http://zhihu.com/question/36972010/answer/71338002)
->
-> 
+> * Promise A+规范 [英文版](https://promisesaplus.com/) [第三方中文翻译版](http://www.ituring.com.cn/article/66566)
+> * [ECMAScript6入门手册：Generator函数](http://es6.ruanyifeng.com/#docs/generator)
+> * [Promise的队列与setTimeout的队列有何关联](http://zhihu.com/question/36972010/answer/71338002)

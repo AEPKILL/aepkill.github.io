@@ -243,11 +243,11 @@ class Task {
 
 关于更详细的 API 及 参数说明请查看 [官方项目地址](https://link.zhihu.com/?target=https%3A//github.com/angular/zone.js)
 
-> 本文作者水平有限，若有理解欠缺与偏差之处，望不吝赐教。
+> 本文作者水平有限，若有理解欠缺或偏差之处，望不吝赐教。
 >
-> 参考：
+> 参考资料：
 >
-> 1. [Zone.js](https://link.zhihu.com/?target=https%3A//github.com/angular/zone.js)
-> 2. [zone.js - 暴力之美](https://link.zhihu.com/?target=http%3A//www.cnblogs.com/whitewolf/p/zone-js.html) (注意：这篇文章中关于zone.js的使用方法大部分已被废弃)
-> 3. 线程本地存储 [分类和原理](https://link.zhihu.com/?target=http%3A//www.cppblog.com/Tim/archive/2012/07/04/181018.html) | [实现探究](https://link.zhihu.com/?target=http%3A//www.cppblog.com/Tim/archive/2012/07/04/181122.html)
-> 4. [Brian Ford - Zones - NG-Conf 2014](https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D3IqtmUscE_U) (需翻墙)
+> * [Zone.js](https://link.zhihu.com/?target=https%3A//github.com/angular/zone.js)
+> * [zone.js - 暴力之美](https://link.zhihu.com/?target=http%3A//www.cnblogs.com/whitewolf/p/zone-js.html) (注意：这篇文章中关于zone.js的使用方法大部分已被废弃)
+> * 线程本地存储 [分类和原理](https://link.zhihu.com/?target=http%3A//www.cppblog.com/Tim/archive/2012/07/04/181018.html) | [实现探究](https://link.zhihu.com/?target=http%3A//www.cppblog.com/Tim/archive/2012/07/04/181122.html)
+> * [Brian Ford - Zones - NG-Conf 2014](https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D3IqtmUscE_U) (需翻墙)

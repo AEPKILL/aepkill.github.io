@@ -1,5 +1,5 @@
 ---
-title: Javascript之深拷贝
+title: Javascript 之深拷贝
 categories: Javascript
 date: 2016-10-28 15:20:19
 tags: [Javascript , 前端 ]
@@ -324,9 +324,7 @@ console.log(X.B === X.D.E); // 输出： true
 
 好啦，已经完成一个支持循环引用拷贝，同时支持该对象下对其他非循环引用的子对象做拷贝的深拷贝函数了。
 
-> 考虑到不要被额外的细节干扰核心内容，所以未实现拷贝不可遍历的值( key为Symbol和Property  Descriptor 中 enumable 字段为 false)，也未处理Array，Date，RegExp等特殊对象，在实际应用的情况下应该正视这些细节。
->
->
 > 本文作者水平有限，若有理解欠缺或偏差之处，望不吝赐教。
 >
-> 您可以通过邮箱联系到我：a@aepkill.com。
+> 考虑到不要被额外的细节干扰核心内容，所以未实现拷贝不可遍历的值( key为Symbol和Property  Descriptor 中 enumable 字段为 false)，也未处理Array，Date，RegExp等特殊对象，在实际应用的情况下应该正视这些细节。
+>
