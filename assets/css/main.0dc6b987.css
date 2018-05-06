@@ -216,8 +216,10 @@
   .post-content pre {
     background: #eee;
     padding: 1.5em;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     overflow: auto; }
+  .post-content code:not([class]) {
+    color: #ff0000; }
   .post-content .hljs {
     display: block;
     overflow-x: auto;
@@ -762,8 +764,6 @@ blockquote {
   border-radius: 3px;
   border-left: 5px solid #999;
   font-family: 'Arial', 'Microsoft YaHei', '\9ED1\4F53', '\5B8B\4F53', sans-serif;
-  font-weight: lighter;
-  font-style: italic;
   font-size: 1em; }
 
 blockquote p:last-child {
