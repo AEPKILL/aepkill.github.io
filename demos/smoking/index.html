@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Identity by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <style>
+      html {
+        font-family: 'Microsoft Yahei', 微软雅黑;
+      }
+      .input-group {
+        display: flex;
+      }
+      .input-group button {
+        margin-left: 10px;
+        height: auto;
+        line-height: none;
+      }
+      .input-success {
+        border-color: #c8cccf !important;
+      }
+      #show-box {
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main">
+        <header>
+          <!-- <span class="avatar"><img src="images/avatar.jpg" alt=""/></span> -->
+          <h1>抽烟罚款计算器</h1>
+          <p>Smoking Penalty Calculator</p>
+        </header>
+        <article>
+          <div class="input-group">
+            <input type="text" id="several" />
+            <button id="calc" disabled>计算</button>
+          </div>
+          <p id="show-box"></p>
+        </article>
+        <!-- <footer>
+          <ul class="icons">
+            <li><a href="#" class="fa-twitter">Twitter</a></li>
+            <li><a href="#" class="fa-instagram">Instagram</a></li>
+            <li><a href="#" class="fa-facebook">Facebook</a></li>
+          </ul>
+        </footer> -->
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>
+            &copy; 抽烟计算器
+          </li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./assets/js/nzh.cn.min.js"></script>
+    <!-- Scripts -->
+    <script>
+      if ('addEventListener' in window) {
+        window.addEventListener('load', function() {
+          document.body.className = document.body.className.replace(
+            /\bis-preload\b/,
+            ''
+          );
+        });
+        document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+          ? ' is-ie'
+          : '';
+      }
+    </script>
+    <script>
+      var several = document.getElementById('several');
+      var calc = document.getElementById('calc');
+      var showbox = document.getElementById('show-box');
+      several.addEventListener('keyup', function(event) {
+        var value = event.target.value;
+        var severalNumber = parseInt(value);
+        if (severalNumber !== severalNumber || severalNumber <= 0) {
+          calc.setAttribute('disabled', true);
+          several.classList.remove('input-success');
+        } else {
+          several.classList.add('input-success');
+          calc.removeAttribute('disabled');
+        }
+      });
+      calc.addEventListener('click', function() {
+        var value = several.value;
+        var severalNumber = parseInt(value);
+        showbox.innerHTML = [
+          '你抽了',
+          '<span style="color:#ff7496"> ',
+          severalNumber,
+          '</span>',
+          ' 支烟，需要交纳罚款',
+          '<span style="color:#ff7496"> ',
+          calcSeveral(severalNumber)[1],
+          ' </span>',
+          '元(',
+          Nzh.toMoney(calcSeveral(severalNumber)[1]),
+          ')'
+        ].join('');
+      });
+
+      function calcSeveral(n) {
+        if (n <= 0) {
+          return 0;
+        }
+        var count = 10,
+          current = 10;
+        for (var i = 1; i < n; i++) {
+          current *= 2;
+          count += current;
+        }
+        return [current, count];
+      }
+    </script>
+  </body>
+</html>
