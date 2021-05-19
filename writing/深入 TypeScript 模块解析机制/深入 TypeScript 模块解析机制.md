@@ -1,9 +1,9 @@
 ---
-title: 深入 TypeScript 模块解析机制
+title: TypeScript 模块解析机制
 categories: TypeScript
 date: 2016-10-03 15:40:46
 tags: [TypeScript , 笔记]
-description: 详细介绍了 TypeScript 的模块解析机制
+description: 本文介绍了 TypeScript 的模块解析机制，及如何定制 TypeScript 模块解析规则
 
 ---
 
