@@ -13,6 +13,6 @@
     "@types/node": "^8.5.1",
     "awesome-typescript-loader": "^3.4.1",
     "typescript": "^2.6.2",
-    "webpack": "^3.10.0"
+    "webpack": "^5.75.0"
   }
 }
